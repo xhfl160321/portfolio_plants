@@ -6,8 +6,126 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <div id="wrap">
+        <div id="page1Wrap">
+            <div class="p1Form">
+                <div class="img1"><img src="img/img1.jpg" alt="img1"></div>
+                <header class="clearfix">
+                    <div class="logo"><a href="#">P.</a></div>
+                    <div class="menu">
+                        <ul class="clearfix">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#page2Wrap">ARTICLES</a>
+                                <ul class="subMenu">
+                                    <li><a href="#page2Wrap">articles - 1</a></li>
+                                    <li><a href="#page3Wrap">articles - 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#page4Wrap">SUBSCRIBE</a></li>
+                        </ul>
+                    </div>
+                </header>
+                <div class="mid">
+                    <div class="p1Con">
+                        <p>PLANTS.</p>
+                        <p>HEALTH THERAPY</p>
+                        <p><hr></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page2Wrap">
+            <div class="p2Con">
+                <p>LATEST ARTICLES</p>
+                <P>
+                    <hr>
+                </P>
+            </div>
+            <div class="p2ImgList">
+                <ul class="clearfix">
+                    <li><a href="#"><img src="https://github.com/xhfl160321/portfolio_plants/blob/master/img/img2-1.jpg?raw=true" alt="img2-1"></a>
+                        <div class="p2imgCon">
+                            <p><hr></p>
+                            <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="https://github.com/xhfl160321/portfolio_plants/blob/master/img/img2-2.jpg?raw=true" alt="img2-2"></a>
+                        <div class="p2imgCon">
+                            <p><hr></p>
+                            <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="https://github.com/xhfl160321/portfolio_plants/blob/master/img/img2-3.jpg?raw=true" alt="img2-3"></a>
+                        <div class="p2imgCon">
+                            <p><hr></p>
+                            <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="page3Wrap" class="clearfix">
+            <div class="p3Left">
+                <div class="p3Img">
+                    <img src="https://github.com/xhfl160321/portfolio_plants/blob/master/img/img3.jpg?raw=true" alt="img3">
+                </div>
+            </div>
+            <div class="p3Right">
+                <div class="p3Con">
+                    <div class="p3ConTitle">
+                        <p>ABOUT</p>
+                        <p><hr></p>
+                    </div>
+                    <div class="p3ConSub">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4Wrap">
+            <div class="img4"><img src="https://github.com/xhfl160321/portfolio_plants/blob/master/img/img4.jpg?raw=true" alt="img4"></div>
+            <div class="p4Mid">
+                <div class="p4Con">
+                    <p>SUBSCRIBE</p>
+                    <p>Sign-up to our newsletter</p>
+                </div>
+                <form action="#" method="post" class="p4Form">
+                    <p><input type="email" name="email" placeholder="Your E-mail" spellcheck="false" autocomplete="off"></p>
+                    <div id="error_mail" class="result-email result-check"></div>
+                    <div class="p4Btn"><button type="submit" class="btn">SUBMIT</button></div>
+                </form>
+            </div>
+            <footer class="clearfix">
+                <div class="sns">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="instar_icon"></a></li>
+                        <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="twitter_icon"></a></li>
+                        <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook_icon"></a></li>
+                        <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1370/1370907.png" alt="kakao_icon"></a></li>
+                    </ul>
+                </div>
+                <div class="p4Menu">
+                    <ul class="clearfix">
+                        <li><a href="#page1Wrap">HOME</a></li>
+                        <li><a href="#page2Wrap">ARTICLES</a></li>
+                        <li><a href="#page4Wrap">SUBSCRIBE</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.6.3.min.js"></script>
     <script src="script/script.js"></script>
 </body>
 </html>
