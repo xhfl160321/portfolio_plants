@@ -268,7 +268,7 @@ header {
 .p2ImgList {
     width: 95%;
     height: 60%;
-    background: lightgreen;
+    /* background: lightgreen; */
 }
 
 .p2Con p:first-child {
@@ -324,6 +324,7 @@ header {
     height: 5px;
     background: #738C3E;
     border: 0;
+    margin-bottom: 20px;
 }
 
 .p2imgCon p:last-child {
@@ -384,7 +385,7 @@ header {
     flex-direction: column;
 }
 
-.p3ConTitle p:first-child {
+.p3ConTitle p:first-child a{
     font-size: 30px;
 }
 
@@ -402,7 +403,7 @@ header {
     /*background: lightgreen;*/
 }
 
-.p3ConSub p {
+.p3ConSub p a{
     display: block;
     font-size: 18px;
     font-family: 'Source Code Pro', monospace;
@@ -411,7 +412,7 @@ header {
     padding-top: 20px;
 }
 
-/* page4Wrap */
+/********** page4Wrap ************/
 #page4Wrap {
     width: 100%;
     height: 1000px;
@@ -461,7 +462,7 @@ header {
     margin-top: 1.5%;
 }
 
-.p4Form {
+#p4Form {
     width: 60%;
     height: 40%;
     display: flex;
@@ -471,13 +472,13 @@ header {
     /*background: lightgreen;*/
 }
 
-.p4Form p {
+#p4Form p {
     width: 100%;
     height: 40%;
     text-align: center;
 }
 
-.p4Form input {
+#p4Form input {
     border: none;
     width: 60%;
     height: 70px;
@@ -495,7 +496,7 @@ header {
     position: absolute;
 }
 
-.p4Form .p4Btn {
+#p4Form .p4Btn {
     width: 50%;
     height: 30%;
     display: flex;

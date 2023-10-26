@@ -1,27 +1,10 @@
 /* 데스크탑 미디어 쿼리 */
 @media screen and (min-width:1025px){
-    @import url(../css/style.css);
+    
 }
 
 /* 테블릿 미디어 쿼리 */
 @media screen and (min-width:769px) and (max-width:1024px){
-    
-}
-
-/* 모바일 미디어 쿼리 */
-@media screen and (max-width:768px){
-    /* 페이지 1 */
-    header{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-    }
-    .menu>ul>li>a{
-        font-size: 15px;
-    }
-    .p1Con p:first-child{
-        font-size: 100px;
-    }
     /* 페이지 2 */
     #page2Wrap{
         height: 2500px;
@@ -38,10 +21,15 @@
     .p2ImgList>ul>li{
         width: 75%;
     }
+    .p2imgCon p:last-child{
+        font-size: 15px;
+    }
+
+
     /* 페이지 3 */
     #page3Wrap{
         /* width: 200%; */
-        height: 2500px;
+        height: 2250px;
         display: flex;
         flex-direction: column;
     }
@@ -53,6 +41,72 @@
     }
     .p3Img{
         width: auto;
+    }
+    .p3ConSub p a{
+        font-size: 15px;
+    }
+
+    /* footer */
+    footer .p4Menu{
+        display: none;
+    }
+}
+
+/* 모바일 미디어 쿼리 */
+@media screen and (max-width:768px){
+    /* 페이지 1 */
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .menu, .p1Con{
+        width: 100%;
+    }
+    .menu>ul>li>a{
+        font-size: 15px;
+    }
+    .p1Con p:first-child{
+        font-size: 100px;
+    }
+
+    /* 페이지 2 */
+    #page2Wrap{
+        height: 2500px;
+    }
+    .p2ImgList{
+        height: 200%;
+    }
+    .p2ImgList > ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .p2ImgList>ul>li{
+        width: 75%;
+    }
+    .p2imgCon p:last-child{
+        font-size: 15px;
+    }
+    /* 페이지 3 */
+    #page3Wrap{
+        /* width: 200%; */
+        height: 2250px;
+        display: flex;
+        flex-direction: column;
+    }
+    #page3Wrap >div{
+        width: 100%;
+    }
+    .p3Left{
+        overflow: hidden;
+    }
+    .p3Img{
+        width: auto;
+    }
+    .p3ConSub p a{
+        font-size: 15px;
     }
     /* footer */
     footer .p4Menu{
