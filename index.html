@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <title>PLANTS</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-
+    
+    <!-- 전체 페이지 -->
     <div id="wrap">
+        <!-- 1 페이지 -->
         <div id="page1Wrap">
             <div class="p1Form">
-                <div class="img1"><img src="img/img1.jpg" alt="img1"></div>
+                <div class="img1"><img src="img/img1.jpg" alt="page1 background img"></div>
                 <header class="clearfix">
-                    <div class="logo"><a href="#">P.</a></div>
-                    <div class="menu">
+                    <!-- 로고 이미지 -->
+                    <div class="logo"><h1><a href="#" title="logo">P.</a></h1></div>
+                    <!-- 메뉴 바 -->
+                    <nav class="menu">
                         <ul class="clearfix">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#page2Wrap">ARTICLES</a>
+                            <li><a href="#" title="main page">HOME</a></li>
+                            <li><a href="#" title="article">ARTICLES</a>
                                 <ul class="subMenu">
-                                    <li><a href="#page2Wrap">articles - 1</a></li>
-                                    <li><a href="#page3Wrap">articles - 2</a></li>
+                                    <li><a href="#page2Wrap" title="page2 go">articles - 1</a></li>
+                                    <li><a href="#page3Wrap" title="page3 go">articles - 2</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#page4Wrap">SUBSCRIBE</a></li>
+                            <li><a href="#page4Wrap" title="page4 go">SUBSCRIBE</a></li>
                         </ul>
-                    </div>
+                    </nav>
                 </header>
                 <div class="mid">
                     <div class="p1Con">
@@ -38,6 +44,7 @@
                 </div>
             </div>
         </div>
+        <!-- 2 페이지 -->
         <div id="page2Wrap">
             <div class="p2Con">
                 <p>LATEST ARTICLES</p>
@@ -47,19 +54,22 @@
             </div>
             <div class="p2ImgList">
                 <ul class="clearfix">
-                    <li><a href="#"><img src="img/img2-1.jpg" alt="img2-1"></a>
+                    <li>
+                        <a href="#"><img src="img/img2-1.jpg" alt="img2-1"></a>
                         <div class="p2imgCon">
                             <p><hr></p>
                             <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
                         </div>
                     </li>
-                    <li><a href="#"><img src="img/img2-2.jpg" alt="img2-2"></a>
+                    <li>
+                        <a href="#"><img src="img/img2-2.jpg" alt="img2-2"></a>
                         <div class="p2imgCon">
                             <p><hr></p>
                             <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
                         </div>
                     </li>
-                    <li><a href="#"><img src="img/img2-3.jpg" alt="img2-3"></a>
+                    <li>
+                        <a href="#"><img src="img/img2-3.jpg" alt="img2-3"></a>
                         <div class="p2imgCon">
                             <p><hr></p>
                             <p>Lorem ipsum, dolor sit <br> amet consectetur adipisicing elit.</p>
@@ -68,6 +78,7 @@
                 </ul>
             </div>
         </div>
+        <!-- 3 페이지 -->
         <div id="page3Wrap" class="clearfix">
             <div class="p3Left">
                 <div class="p3Img">
@@ -108,10 +119,10 @@
             <footer class="clearfix">
                 <div class="sns">
                     <ul class="clearfix">
-                        <li><a href="#"><img src="img/insta_icon.png" alt="instar_icon"></a></li>
-                        <li><a href="#"><img src="img/twitter_icon.png" alt="twitter_icon"></a></li>
-                        <li><a href="#"><img src="img/facebook_icon.png" alt="facebook_icon"></a></li>
-                        <li><a href="#"><img src="img/message_icon.png" alt="message_icon"></a></li>
+                        <li><a href="#" title="instargram"><img src="img/insta_icon.png" alt="instar_icon"></a></li>
+                        <li><a href="#" title="twitter"><img src="img/twitter_icon.png" alt="twitter_icon"></a></li>
+                        <li><a href="#" title="facebook"><img src="img/facebook_icon.png" alt="facebook_icon"></a></li>
+                        <li><a href="#" title="message"><img src="img/message_icon.png" alt="message_icon"></a></li>
                     </ul>
                 </div>
                 <div class="p4Menu">
