@@ -378,7 +378,7 @@ header {
 .p3ConTitle {
     width: 100%;
     height: 15%;
-    /*background: green;*/
+    /* background: green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,8 +399,8 @@ header {
 
 .p3ConSub {
     width: 100%;
-    height: 50%;
-    /*background: lightgreen;*/
+    height: 60%;
+    /* background: lightgreen; */
 }
 
 .p3ConSub p a{
