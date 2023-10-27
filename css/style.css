@@ -315,7 +315,7 @@ header {
     flex-direction: column;
 }
 
-.p2imgCon p:first-child {
+.p2imgCon hr {
     margin-bottom: -20px;
 }
 
