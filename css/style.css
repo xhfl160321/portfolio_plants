@@ -385,7 +385,7 @@ header {
     flex-direction: column;
 }
 
-.p3ConTitle p:first-child a{
+.p3ConTitle h2 a{
     font-size: 30px;
 }
 
